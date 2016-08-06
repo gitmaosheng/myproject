@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Maunsell (982431279@qq.com)
+ * @date    2016-08-06 15:05:42
+ * @version $Id$
+ */
+html,body{padding: 0;margin: 0}
+
+li{list-style: none;}
+#topNav{
+    top: 0;
+    width:100%;
+    min-width: 1080px;
+    background-color: #000
+}
+#topNav ul{
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    min-width: 1080px;
+
+}
+#topNav ul li{
+    float: left;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+
+}
+#topNav ul li a{
+    color: #999;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    font-family:"Consolas";
+    font-size: 1.5em;
+}

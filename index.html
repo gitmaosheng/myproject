@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Maunsell">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<title>myBlog</title>
+        <!-- assets -->
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+
+        <!-- indexcss -->
+        <link rel="stylesheet" href="css/app.css">
+        <!-- assets -->
+        <script src="assets/jquery.js"></script>
+        <script src="assets/angularjs/angular.js"></script>
+        <script src="assets/angularjs/ui-bootstrap.js"></script>
+        <script src="assets/angularjs/ui-bootstrap-tpls.js"></script>
+        <script src="assets/angularjs/angular-ui-router.js"></script>
+
+        <!-- indexjs -->
+        <script src="js/app.js"></script>
+        <!-- modules -->
 	</head>
 	<body>
-		
+        <div ui-view=""></div>
 	</body>
 </html>
